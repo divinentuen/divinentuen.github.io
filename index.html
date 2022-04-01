@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            nav {
+                background-color: black;
+                color: white;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .we {
+                flex: auto;
+                padding: 15px;
+            }
+            .ron {
+                display: inline;
+                padding: 7px;
+            }
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                color: red;
+                text-decoration: overline;
+            }
+            img {
+                width: 100%;
+                height: 500px;
+            }
+            .ted {
+                display: flex;
+                justify-content: center;
+                padding-top: 15px;
+            }
+            .text {
+                background-color: ;
+                color: black;
+                position: relative;
+                top: -200px;
+                margin-right: 0px;
+                margin-left: 0px;
+                text-align: center;
+            }
+            .zoo {
+                background-color: black;
+                color: white;
+                width: 100px;
+                height: 20px;
+                margin: auto;
+            }
+            .vee {
+                display: grid;
+                gap: 10px;
+                grid-template-columns: 1fr 1fr 1fr 
+                1fr 1fr;
+                grid-template-rows: 1fr;
+                color: white;
+                margin-bottom: 30px;
+            }
+            .pee {
+                grid-column: 2/3;
+                background-color: black;
+                height: 50px;
+                padding-top: 30px;
+                display: flex;
+                justify-content: center;
+            }
+            .tee {
+                grid-column: 3/4;
+                background-color: black;
+                padding-top: 30px;
+                display: flex;
+                justify-content: center;
+            }
+            .hee {
+                grid-column: 4/5;
+                background-color: black;
+                padding-top: 30px;
+                display: flex;
+                justify-content: center;
+            }
+            .class {
+                display: block;
+            }
+            .fish {
+                display: grid;
+                gap: 10px;
+                grid-template-columns: 1fr 1fr 1fr 
+                1fr;
+                grid-template-rows: 1fr;
+                color: white;
+                background-color: gray;
+            }
+            .ish {
+                grid-column: 1/2;
+            }
+            .nish {
+                grid-column: 2/3;
+
+            }
+            .jish {
+                grid-column: 3/4;
+
+            }
+            .bish {
+                grid-column: 4/5;
+            }
+            .do {
+                height: 2px;
+                width: 20px;
+                background-color:white;
+                margin: 3px;
+            }
+            #burger {
+                background-color: black;
+                padding-top: 15px;
+                display: none;
+                cursor: pointer;
+            }
+            @media screen and (max-width: 600px) {
+               *{
+                margin:0px;
+                padding: 0px;
+                   
+               }
+                img {
+                    height: 400px;
+                }
+                .ron {
+                    display: block;
+                    text-align: center;
+                    background-color: white;
+                    margin: 2px;
+                    color: black;
+                    flex: auto;
+                }
+                a {
+                    color: black;
+                }
+                .fish {
+                    display: grid;
+                gap: 10px;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 
+                1fr;
+                color: white;
+                background-color: gray;
+                text-align: center;
+                }
+                
+                .ish {
+
+                    grid-row: 1/2;
+                    grid-column: 1/2;
+                }
+                .nish {
+                    grid-row: 2/3;
+                    grid-column: 1/2;
+                }
+                .jish {
+                    grid-row: 3/4;
+                    grid-column: 1/2;
+                }
+                .bish {
+                    grid-row: 4/5;
+                    grid-column: 1/2;
+                }
+                #burger {
+                    display: block;
+                }
+                .you {
+                    position: absolute;
+                    left: 0px;
+                    right: 0px;
+                    top: 40px;
+                    margin: 0px;
+                    padding: 0;
+                    width: 100%;
+                    transform: translate(100%);
+                }
+                body {
+                    overflow-x: hidden;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="we">
+                ADEOLA KAY
+            </div>
+            <div class="you">
+                <ul>
+                <li class="ron"><a href="#">HOME</a></li>
+                <li class="ron"><a href="#">ABOUT US</a></li>
+                <li class="ron"><a href="#">CONTACT US</a></li>
+                <li class="ron"><a href="#">TOURISM</a></li>
+                </ul>
+            </div>
+            <div id="burger">
+                <p class="do"></p>
+                <p class="do"></p>
+                <p class="do"></p>
+            </div>
+        </nav>
+        <div class="ted"><img src="work.jpg"></div>
+        <div class="text">
+            <p><b>ALL THAT IS GOLD DOES NOT
+                GLITTER,NOT ALL THOSE WHO 
+                WANDER ARE LOST
+            </b></p>
+            <p class="zoo">TOURISM</p>
+        </div>
+        <div class="ted"><img src="work1.jpg"></div>
+        <div class="text">
+            <p><b>EDUCATION IS THE PASSPORT
+                TO THE FUTURE, FOR TOORROW
+                BELONGS TO THOSE WHO PREPARE
+                FOR IT TODAY
+            </b></p>
+            <p class="zoo">EDUCATION</p>
+        </div>
+        <div class="vee">
+            <div class="pee">ABOUT US</div>
+            <div class="tee">OUR VISSION</div>
+            <div class="hee">OUR MISSION</div>
+        </div>
+            <div class="fish">
+                <div class="ish">
+                    <ul class="class">
+                        <li class="class">CONTACT</li>
+                        <li class="class">No5, Aderibigbe Close</li>
+                        <li class="class">Off Kidegbe Estate</li>
+                        <li class="class">Maryland</li>
+                        <li class="class">Lagos state</li>
+                    </ul>
+                </div>
+                <div class="nish">
+                    <ul class="class">
+                        <li class="class">HEADQUARTER</li>
+                        <li class="class">No7, Akinrenrin street</li>
+                        <li class="class">Shobowale Estate</li>
+                        <li class="class">Agidingbi,Ikeja</li>
+                        <li class="class">Lagos state</li>
+                    </ul>
+                </div>
+                <div class="jish">
+                    <ul class="class">
+                        <li class="class">Tel:08094877356</li>
+                        <li class="class">Whatsapp:09085746353</li>
+                        <li class="class">Email: adeolakay@gmail.com</li>
+                        <li class="class">Ait Email: Kayroyal@yahoo.com</li>
+                    </ul>
+                </div>
+                <div class="bish">
+                    <ul class="class">
+                        <li class="class">Facebook:Adeolakay</li>
+                        <li class="class">Twitter:Adeolakay</li>
+                        <li class="class">Instagram: Adeolakay</li>
+                        <li class="class">Linkedn:Adeolakay</li>
+                    </ul>
+                </div>
+            </div>
+            <script src="assignment.js"></script>
+    </body>
+</html>
